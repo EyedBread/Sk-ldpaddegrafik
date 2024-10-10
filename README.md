@@ -1,2 +1,2 @@
-# Sköldpaddegrafik
-En parser för ett enkelt programmeringsspråk för grafik, baserat på det klassiska programmeringsspråket Logo. Sköldpaddan heter Leona.
+# Turtle Graphics
+A fully functional parser for a simple programming language for graphics, based on the classic programming language Logo. The turtle is named Leona.

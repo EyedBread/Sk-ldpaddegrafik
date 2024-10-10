@@ -1,0 +1,11 @@
+<Instr>    ::= (<UnFun> | <BinFun> | <Rep>)
+
+<Expr>     ::= (<Instr> <Expr>) | ε
+
+<Rep>      ::= REP DECIMAL (QUOTE <Expr> QUOTE)|<Instr>
+
+<UnFun>    ::= UP|DOWN PERIOD
+
+<BinFun>   ::= (FORW|BACK|LEFT|RIGHT DECIMAL)|(COLOR HEX) PERIOD
+
+där ε = tomma strängen
